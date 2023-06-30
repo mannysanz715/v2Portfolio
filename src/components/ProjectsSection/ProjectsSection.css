@@ -1,0 +1,13 @@
+.projects-section{
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-section-title{
+  color: white;
+  font-size:  calc(1.4rem + 1.5vw);
+  margin-bottom: 30px;
+}
