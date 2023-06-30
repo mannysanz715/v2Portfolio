@@ -55,27 +55,29 @@
 }
 
 #line-0{
-  color:white;
-  text-align: start;
-  padding-right: 20rem;
-}
-#line-1{
   color:var(--light-blue);
   text-align: start;
-  padding-left: 3rem;
+
+}
+#line-1{
+  color:white;
+  text-align: start;
+
 }
 #line-2{
   color:white;
   text-align: start;
-  padding-left: 3rem;
+
 }
 #line-3{
   color:white;
   text-align: start;
+
 }
 #line-4{
   color:white;
   text-align: start;
+
 }
 #line-5{
   color:white;
@@ -84,9 +86,29 @@
 #line-6{
   color:white;
   text-align: start;
+
 }
 #line-7{
   color:white;
   text-align: start;
-  padding-right: 20rem;
+}
+#line-8{
+  color:white;
+  text-align: start;
+}
+
+.text-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.open-rf{
+  padding-right: 39rem;
+  font-size: calc(1rem + 1.5vw);
+  color: white;
+}
+.close-rf{
+  padding-right: 39rem;
+  font-size: calc(1rem + 1.5vw);
+  color: white;
 }
