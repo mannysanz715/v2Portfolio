@@ -8,10 +8,10 @@ function ProjectsSection(){
     title: 'Project 1',
   }
   return (
-      <div className='projects-section'>
+      <div className='projects-section' id='projects'>
         <h1 className='projects-section-title'>Projects</h1>
-        <ProjectCard title={project.title} idx={4} description={project.description}/>
-
+        <ProjectCard title={project.title} idx={0} description={project.description}/>
+        <ProjectCard title={project.title} idx={1} description={project.description}/>
       </div>
 )
 }
