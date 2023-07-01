@@ -5,20 +5,23 @@ const projects = [
   //   image : '',
   //   codeLink : '',
   //   liveLink : '',
+  //   technologies: [],
   // },
   {
     title: "Grace's Driving School",
-    description : 'asd ajksdnak sjdna skdj askdj naskdjn askdj naskdnjasdn asd,masldamnsalsjdn aksdjn asd lasdm alsd naslkdjn asdaskdjn asd',
+    description: 'Grace\'s Driving School is a well-designed and user-friendly website that caters to individuals seeking professional driving lessons. Visitors can easily navigate through the site, thanks to the intuitive menu and clear sections that provide details about instructors, and pricing.',
     image : '/assets/projectImages/drivingschool.png',
     codeLink : 'https://github.com/mannysanz715/BestDrivingTeacherFront',
     liveLink : 'https://gracesdrivingschool.com',
-  },  
+    technologies: ['ReactJS','JavaScript','CSS', 'HTML', 'Netlify'],
+  },   
   {
     title: 'Exchange-O-Gram',
-    description : 'Exchange-O-Gram is a social media photo-sharing application. After signing up, a user can upload photos and display them on the feed page and their profile page. The user can also view other users photos on the feed page and like and comment on each post. If a user wants to message another user directly, they can send and respond to messages from their profile page. Exchange-O-Gram makes it easy to keep up with your friends lives through photo sharing!',
+    description : 'Exchange-O-Gram is a social media photo-sharing application. User\'s can upload photos and display them on the feed page and their profile page. The user can also view other users photos on the feed page and like and comment on each post. If a user wants to message another user directly, they can send and respond to messages from their profile page. Exchange-O-Gram makes it easy to keep up with your friends lives through photo sharing!',
     image : '/assets/projectImages/exchange-o-gram.png',
     codeLink : 'https://github.com/mannysanz715/exchangeagram-front-end/tree/main',
     liveLink : 'https://exchangeagram.netlify.app/',
+    technologies: ['ReactJS','JavaScript','Node.JS','Express.JS', 'CSS', 'HTML', 'Netlify'],
   },
   {
     title: 'What to Watch?',
@@ -26,6 +29,7 @@ const projects = [
     image : '/assets/projectImages/whattowatch.png',
     codeLink : 'https://github.com/mannysanz715/movie-rec-front',
     liveLink : 'https://movie-rec-app.netlify.app/',
+    technologies: ['ReactJS','JavaScript','Node.JS','Express.JS', 'CSS', 'HTML', 'Netlify'],
   },
   {
     title: 'ConnectFOR',
@@ -33,14 +37,16 @@ const projects = [
     image : '/assets/projectImages/connect4.png',
     codeLink : 'https://github.com/mannysanz715/connect4',
     liveLink : 'https://connect4ms.netlify.app/',
+    technologies: ['JavaScript', 'CSS', 'HTML', 'Netlify'],
   },
   {
-      title: 'Cakes by Murr (Cake Calculator)',
-      description : 'Still in the works...',
-      image : '/assets/projectImages/cakecalculator.png',
-      codeLink : 'https://github.com/mannysanz715/Cake-Calculator-Front',
-      liveLink : '#',
-    },
+    title: 'Cakes by Murr (Cake Calculator)',
+    description : 'Still in the works...',
+    image : '/assets/projectImages/cakecalculator.png',
+    codeLink : 'https://github.com/mannysanz715/Cake-Calculator-Front',
+    liveLink : '#',
+    technologies: ['ReactJS','JavaScript','Node.JS','Express.JS', 'CSS', 'HTML', 'Netlify'],
+  },
 ]
 
 export default projects

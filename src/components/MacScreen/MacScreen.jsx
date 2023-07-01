@@ -1,3 +1,4 @@
+import 'animate.css';
 
 import './MacScreen.css'
 function MacScreen () {
@@ -6,7 +7,7 @@ function MacScreen () {
   const text3 = '</>'
   return (
     <>
-      <div className='whole-window'>
+      <div className='animate__pulse animate__animated whole-window'>
         <div className='top-bar'>
           <div className='round red'></div>
           <div className='round yellow'></div>

@@ -11,3 +11,7 @@
   font-size:  calc(1.4rem + 1.5vw);
   margin-bottom: 30px;
 }
+
+.show-more{
+  margin: 30px;
+}

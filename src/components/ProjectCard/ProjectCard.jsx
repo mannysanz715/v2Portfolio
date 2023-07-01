@@ -1,17 +1,20 @@
+/* eslint-disable react/prop-types */
 import './ProjectCard.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
-/* eslint-disable react/prop-types */
 
-function ProjectCardLight({description, image, title, codeLink, liveLink, idx}){
+
+function ProjectCardLight( { technologies, description, image, title, codeLink, liveLink, idx } ) {
   useEffect(()=>{
     Aos.init({duration: 1500})
   },[])
+  
   let even = false
+
   if(idx % 2 == 0){
     even = true
-}
+  }
   return (
       <>
         <section data-aos='fade-up' className={'card-container ' + `${even ? 'background-light' : 'background-dark reverse'} `}>
@@ -24,7 +27,18 @@ function ProjectCardLight({description, image, title, codeLink, liveLink, idx}){
             </div>
           </div>
           <div className='section-2'>
-            <p>{description}</p>
+            <div className='project-description'>
+              <h3>Description:</h3>
+              <p>{description}</p>
+            </div>
+            <div className='technologies-container'>
+              <h3>Technologies:</h3>
+              <ul className='technologies-list'>
+                {technologies.map((tech, idx)=>
+                  <li className='technology-item' key={idx}>{tech}</li>
+                  )}
+              </ul>
+            </div>
           </div>
         </section>
       </>

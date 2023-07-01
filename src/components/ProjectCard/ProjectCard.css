@@ -43,11 +43,33 @@
 .section-2{
   width: 50vw;
   display: flex;
+  gap: 2rem;
+  flex-direction:column ;
   justify-content: center;
   align-items: center;
   padding: 50px;
   font-weight: 500;
   font-size:  calc(.5rem + 1.5vw);
+}
+.technologies-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.technologies-list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.technology-item{
+  margin: 0 10px;
+  list-style: none;
+  padding: 10px;
 }
 
 .buttons-container{
@@ -77,4 +99,15 @@
 .live-page-button-dark{
   background-color: var(--dark-blue);
   color: white;
+}
+
+.button:hover{
+  opacity: 85%;
+}
+
+.project-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
