@@ -17,7 +17,7 @@ const projects = [
   },   
   {
     title: 'Exchange-O-Gram',
-    description : 'Exchange-O-Gram is a social media photo-sharing application. User\'s can upload photos and display them on the feed page and their profile page. The user can also view other users photos on the feed page and like and comment on each post. If a user wants to message another user directly, they can send and respond to messages from their profile page. Exchange-O-Gram makes it easy to keep up with your friends lives through photo sharing!',
+    description : 'Exchange-O-Gram is a social media photo-sharing application. User\'s can upload photos and display them on the feed page and their profile page. The user can also view other users photos on the feed page, like and comment on each post, and message another user directly. Exchange-O-Gram makes it easy to keep up with your friends lives through photo sharing!',
     image : '/assets/projectImages/exchange-o-gram.png',
     codeLink : 'https://github.com/mannysanz715/exchangeagram-front-end/tree/main',
     liveLink : 'https://exchangeagram.netlify.app/',

@@ -1,4 +1,5 @@
 import './App.css'
+import AboutMe from './components/AboutMe/AboutMe'
 import Header from './components/Header/Header'
 import ProjectsSection from './components/ProjectsSection/ProjectsSection'
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Header />
       <ProjectsSection />
+      <AboutMe />
     </>
   )
 }

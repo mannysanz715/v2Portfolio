@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
 
-function ProjectCardLight( { technologies, description, image, title, codeLink, liveLink, idx } ) {
+function ProjectCard( { technologies, description, image, title, codeLink, liveLink, idx } ) {
   useEffect(()=>{
     Aos.init({duration: 1500})
   },[])
@@ -45,4 +45,4 @@ function ProjectCardLight( { technologies, description, image, title, codeLink, 
 )
 }
 
-export default ProjectCardLight
+export default ProjectCard
