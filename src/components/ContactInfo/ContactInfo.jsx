@@ -6,7 +6,7 @@ const ContactInfo = () => {
     Aos.init({duration: 1500})
   },[])
   return (
-    <div className='contact-container'>
+    <div id='contact-me' className='contact-container'>
       <h1 className='contact-title'>
         Lets Connect!
       </h1>
