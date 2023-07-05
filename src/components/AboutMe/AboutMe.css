@@ -1,0 +1,40 @@
+.section-about-me{
+  display: flex;
+  background-color: var(--light-blue);
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.about-me-title{
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+  text-align: center;
+  padding-top: 80px;
+  font-size: calc(1.4rem + 1.5vw)
+}
+
+.manny-image{
+  width: 30vw;
+  border-radius: 100%;
+  border: 5px solid var(--dark-blue);
+}
+
+.section-paragraphs{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  justify-content: center;
+  text-align: center;
+  padding: 80px;
+  font-size: calc(.5rem + 1.3vw);
+  font-weight: bold;
+  gap: 10px;
+}
+.section-image{
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
