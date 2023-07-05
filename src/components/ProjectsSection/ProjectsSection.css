@@ -15,3 +15,9 @@
 .show-more{
   margin: 30px;
 }
+
+@media only screen and (max-width: 1500px) {  
+  .projects-section{
+    padding-top: 100px;
+  }
+}
