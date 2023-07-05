@@ -112,3 +112,23 @@
   font-size: calc(1rem + 1.5vw);
   color: white;
 }
+
+@media only screen and (max-width: 1500px) {  
+
+  .whole-window{
+    width: 90vw;
+  }
+
+  .top-bar{
+    width: 90vw;
+  }
+
+  .open-rf, .close-rf{
+    padding-right: 60vw;
+  }
+
+  .text-content{
+    gap: 5px;
+  }
+
+}
