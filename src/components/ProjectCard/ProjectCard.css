@@ -112,7 +112,7 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 1500px) {  
+@media only screen and (max-width: 1000px) {  
   .card-container{
     flex-direction: column;
     justify-content: center;
@@ -120,7 +120,32 @@
     overflow: hidden;
   }
 
+  .project-title{
+    text-align: center;
+  }
   .project-image{
     width: 90vw;
+  }
+  .button{
+    width: 20vw;
+  }
+
+  .project-description{
+    font-size:  calc(.75rem + 1.5vw);
+    width: 95vw;
+    text-align: center;
+  }
+  
+  .technologies-list{
+    width: 100vw;
+  }
+
+  .technology-item{
+    font-size:  calc(.75rem + 1.5vw);
+  }
+
+  .section-2{
+    width: 100vw;
+    padding-top: 5px;
   }
 }

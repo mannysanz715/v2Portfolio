@@ -38,3 +38,20 @@
   align-items: center;
 }
 
+
+@media only screen and (max-width: 1000px) {  
+  .section-about-me{
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .section-image{
+    padding-top: 20px;
+  }
+  
+  .section-paragraphs{
+    padding: 20px 0;
+    width: 90vw;
+    font-size: calc(.75rem + 1.3vw);
+  }
+}
