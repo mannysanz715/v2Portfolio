@@ -17,13 +17,13 @@ function ProjectCard( { technologies, description, image, title, codeLink, liveL
   }
   return (
       <>
-        <section data-aos='fade-up' className={'card-container ' + `${even ? 'background-light' : 'background-dark reverse'} `}>
+        <section data-aos={even ? 'fade-left' : 'fade-right' } className={'card-container ' + `${even ? 'background-light' : 'background-dark reverse'} `}>
           <div className='section-1'>
             <p className='project-title'>{title}</p>
             <img loading='lazy' className='project-image' src={image} alt='projectImage'/>
             <div className='buttons-container'>
               <a rel="noreferrer" target='_blank' href={codeLink}><button className='code-button button white'>Code</button></a>
-              <a target='_blank' href={liveLink} rel="noreferrer"><button className={ `${even ? 'live-page-button-dark' : 'live-page-button-light' }  button`}>Live Page</button></a>
+              <a  target='_blank' href={liveLink} rel="noreferrer"><button className={ `${even ? 'live-page-button-dark' : 'live-page-button-light' }  button`}>Live Page</button></a>
             </div>
           </div>
           <div className='section-2'>
