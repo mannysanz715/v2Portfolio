@@ -16,6 +16,14 @@ const projects = [
     technologies: ['ReactJS','JavaScript','CSS', 'HTML', 'Netlify'],
   },   
   {
+    title: "Client DataBase App Graces's Driving School",
+    description : 'Client organization app built in React Native to help Graces Driving School organize and maintain an easy way to log their students and customers. Taking into account sensitive infromation, the proper measures for securing users data are taken place.  ',
+    image : '/assets/projectImages/database-app.png',
+    codeLink : 'https://github.com/mannysanz715/ClientApp-2.0',
+    liveLink : 'https://github.com/mannysanz715/ClientApp-2.0',
+    technologies: ['React Native', 'JavaScript', 'ExpressJs', 'MongoDB'],
+  },
+  {
     title: 'Exchange-O-Gram',
     description : 'Exchange-O-Gram is a social media photo-sharing application. User\'s can upload photos and display them on the feed page and their profile page. The user can also view other users photos on the feed page, like and comment on each post, and message another user directly. Exchange-O-Gram makes it easy to keep up with your friends lives through photo sharing!',
     image : '/assets/projectImages/exchange-o-gram.png',
@@ -39,14 +47,14 @@ const projects = [
     liveLink : 'https://connect4ms.netlify.app/',
     technologies: ['JavaScript', 'CSS', 'HTML', 'Netlify'],
   },
-  {
-    title: 'Cakes by Murr (Cake Calculator)',
-    description : 'Still in the works...',
-    image : '/assets/projectImages/cakecalculator.png',
-    codeLink : 'https://github.com/mannysanz715/Cake-Calculator-Front',
-    liveLink : '#',
-    technologies: ['ReactJS','JavaScript','Node.JS','Express.JS', 'CSS', 'HTML', 'Netlify'],
-  },
+  // {
+  //   title: 'Cakes by Murr (Cake Calculator)',
+  //   description : 'Still in the works...',
+  //   image : '/assets/projectImages/cakecalculator.png',
+  //   codeLink : 'https://github.com/mannysanz715/Cake-Calculator-Front',
+  //   liveLink : '#',
+  //   technologies: ['ReactJS','JavaScript','Node.JS','Express.JS', 'CSS', 'HTML', 'Netlify'],
+  // },
 ]
 
 export default projects
